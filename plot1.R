@@ -5,7 +5,8 @@ source("load_data.R")
 png("plot1.png", width=504, height=504)
 # Draw plot
 hist(data$Global_active_power,
-     col='red',main='Global Active Power',
+     col='red',
+     main='Global Active Power',
      xlab='Global Active Power (kilowatts)'
      )
 # Close device
